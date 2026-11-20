@@ -14,7 +14,13 @@ resource "local_file" "niranjan_infrastructure" {
 
   content = <<-EOT
     Project 11 - Infrastructure Change
-    Managed using Terraform.
+
+    Infrastructure managed using Terraform.
+
     Branch: feature/niranjan-infra
+    Owner: Niranjan
+
+    This change was implemented using the feature branch
+    and submitted through a GitHub Pull Request.
   EOT
 }
